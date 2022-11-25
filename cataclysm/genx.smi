@@ -1,0 +1,33 @@
+<smil>
+ <head>
+  <layout>
+   <root-layout height="400" width="600" background-color="#ffffcc" title="ADOLESCENCE"/>
+   <region id="text_0" width="600" height="400" top="0" left="0"  z-index="2" />
+
+   <region id="lyric_line1" width="300" height="50" top="100" left="30"  z-index="3" />
+   <region id="lyric_line2" width="300" height="50" top="150" left="30"  z-index="3" />
+
+   <region id="albumlogo" width="100" height="100" top="400" left="10"  z-index="3" />
+   <region id="albumtitle" width="300" height="50" top="450" left="110"  z-index="3" />
+
+  </layout>
+ </head>
+ 
+ <body>
+ 
+  <par>
+    <seq>
+     <par>
+	 <text region="text_0"  begin="2.00s" >ADOLESCENCE BY PETER J SLACK</text>
+     <audio src="http://www.pjslack.net/cataclysm/genx.mp3"   begin="1.00s" />
+	 <text region="text_0"  begin="1.00s" end="3.00s">I must have been lost</text>
+	 <text region="text_0"  begin="2.00s" end="4.00s">On the dark side of the moon</text>
+    
+	 </par>
+
+
+    </seq>
+   </par>
+ </body>
+</smil>
+
